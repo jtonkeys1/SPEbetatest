@@ -14,12 +14,12 @@ body {
 }
 
 a {
-  color: #Bcffbc;
+  color: #000;
   text-decoration: none;
 }
 
 a:hover {
-  color: #Bcffbc;
+  color: #777777;
   text-decoration: none;
 }
 
