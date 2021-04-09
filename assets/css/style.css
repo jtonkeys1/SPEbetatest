@@ -554,6 +554,19 @@ section {
 /*--------------------------------------------------------------
 # About Me
 --------------------------------------------------------------*/
+/* centered columns styles */
+.row-centered {
+text-align:center;
+}
+.col-centered {
+display:inline-block;
+float:none;
+/* reset the text-align */
+text-align:left;
+/* inline-block space fix */
+margin-right:-4px;
+}
+
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
@@ -953,7 +966,7 @@ text-align:center;
 display:inline-block;
 float:none;
 /* reset the text-align */
-text-align:left;
+text-align:center;
 /* inline-block space fix */
 margin-right:-4px;
 }
